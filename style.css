@@ -1,0 +1,186 @@
+.header-container{
+    width: 98vw;
+    height: 15vh;           
+    border: 2px solid rgb(25, 25, 46);
+    background-color: rgb(17, 17, 54);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+@keyframes floating{
+    0%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(50px);
+    }
+}
+#img-logo{ 
+    
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-left: 30px;
+    border-radius: 3rem;
+    
+} 
+.box{
+    width: 250px;
+    height: 50px;
+    padding: 0px;
+    margin-left: 30%;
+    color: white;
+    
+}
+.box h2{
+    animation: floating 5s 1s ease-in-out infinite;
+    
+    margin: 0px;
+    padding-left: 70px;
+    font-size: x-large;
+
+}
+.box h4{
+    animation: floating 5s 1s ease-in-out infinite;
+    margin: 0px;
+    padding-left: 62px;
+}
+nav{
+    border-bottom: 2px solid black;
+    width: 99vw;
+    height: 15vh;
+    display: flex;  
+} 
+.catago{
+    margin-left: 20px;
+}
+.catago h6{
+    font-weight:600;
+    margin-bottom: 0px;
+    
+    
+}
+.catago h3{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.content{
+    margin-left: 400px;
+}
+.subs{
+    margin-left: 250px;
+}
+.subs h6{
+    font-weight:600;
+    margin-bottom: 0px;
+}
+input[type="submit"]{
+    background-color: rgb(30, 30, 65);
+    color: white;
+    border-radius: 0.5rem;
+}
+hr{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#article-img{
+    
+    margin-left: 80px;
+    width: 300px;
+    height: 150px;
+    /* filter: blur(2px); */
+    object-fit: cover;
+    float: left; 
+    
+}
+#article-img:hover{
+    transform: scale(1.2);
+}
+
+.articles{
+    display: flex;
+    margin: 30px 33px 30px 0px;
+    
+}
+.articles p:last-child{
+    visibility: hidden;
+}
+.articles a:hover p{
+     visibility: visible;
+
+}
+.details{
+    margin: 0px;
+    margin-top: -15px;
+    position: relative;
+}
+.details h2{
+    margin-left: 40px;
+}
+.details h6{
+    margin-top: -18px;
+    margin-left: 40px;
+}
+.details p{
+    margin-left: 40px;
+    margin-top: -18px;
+    position: relative;
+}
+a{
+    color: white;
+    
+}
+.buton{
+    border: 2px solid ;
+    font-size: smaller;
+    width: 100px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+}
+.footer{
+    
+    width: 100%;
+    height: 75px;
+    background-color: rgb(34, 34, 75);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for Article Pages */
+.content-1{
+    
+   width: 100%;
+   height: 700px;
+}
+.content-img{
+    
+    width: 80%;
+    margin-left: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+#three{
+    width: 500px; 
+    object-fit: cover;
+}
+
+
+
+       
+
+
+    
+    
+
