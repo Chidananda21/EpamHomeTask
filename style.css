@@ -1,5 +1,5 @@
 .header-container{
-    width: 98vw;
+    width: auto;
     height: 15vh;           
     border: 2px solid rgb(25, 25, 46);
     background-color: rgb(17, 17, 54);
@@ -22,49 +22,32 @@
     width: 250px;
     height: 50px;
     padding: 0px;
-    margin-left: 30%;
+    margin-left: 23%;
     color: white;
     
 }
 .box h2{
     margin: 0px;
     padding-left: 70px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 .box h4{
-    animation: floating 5s 1s ease-in-out infinite;
+    
     margin: 0px;
-    padding-left: 62px;
+    padding-left: 75px;
 }
-nav{
-    border-bottom: 2px solid black;
-    width: 99vw;
-    height: 15vh;
-    display: flex;  
-} 
-.catago{
-    margin-left: 20px;
-}
-.catago h6{
-    font-weight:600;
-    margin-bottom: 0px;
-    
-    
-}
-.catago h3{
-    padding-top: 10px;
-    margin-left: 50px;
-}
+.nav-bar{
+    width: auto;
+    height: 60px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
 
-.content{
-    margin-left: 400px;
-}
-.subs{
-    margin-left: 250px;
-}
-.subs h6{
-    font-weight:600;
-    margin-bottom: 0px;
+span{
+    font-size: small;
 }
 input[type="submit"]{
     background-color: rgb(30, 30, 65);
@@ -128,10 +111,25 @@ hr{
 }
 
 /* Styling for Article Pages */
+.nav-bar-article-page{
+    width: auto;
+    height: 60px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .nav-bar-article-page a{
+    margin-left: 50px;
+ }
+ .nav-bar-article-page h2{
+    margin-right: 620px;
+ }
 .content-1{
     
-   width: 100%;
-   height: 700px;
+   width: auto;
+   height: auto;
 }
 .content-img{
     

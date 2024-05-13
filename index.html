@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+     <header>
         <div class="header-container">
                 <img id="img-logo" src="https://github.com/Chidananda21/EpamHomeTask/blob/main/images/world-img.jpg?raw=true" alt="logo">
             <div class="box">
@@ -16,9 +16,10 @@
             </div>
         </div>
     </header>
-    <nav>
+    
+    <nav class="nav-bar">
      <div class="catago">
-        <h6>SELECT CATEGORY</h6>
+        <span class="captcha">SELECT CATEGORY</span> <br>
         <select name="catagories" id="opt">
             <option value="all">All</option>
             <option value="politics">Politics</option>
@@ -31,8 +32,8 @@
         <h1>ALL NEWS</h1>
      </div>
      <div class="subs">
-        <h6>SUBSCRIBE</h6>
-        <input type="text" placeholder="email address">
+        <span class="captcha">SUBSCRIBE</span> <br>
+        <input type="text" placeholder="email address" required>
         <input type="submit" value="Subscribe">
      </div>
     </nav>
