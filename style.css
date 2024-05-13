@@ -9,14 +9,6 @@
     
 }
 
-@keyframes floating{
-    0%{
-        transform: translateX(-50px);
-    }
-    100%{
-        transform: translateX(50px);
-    }
-}
 #img-logo{ 
     
     width: 90px;
@@ -35,12 +27,9 @@
     
 }
 .box h2{
-    animation: floating 5s 1s ease-in-out infinite;
-    
     margin: 0px;
     padding-left: 70px;
     font-size: x-large;
-
 }
 .box h4{
     animation: floating 5s 1s ease-in-out infinite;
@@ -86,60 +75,41 @@ hr{
     margin-left: 4%;
     margin-right: 4%;
 }
-
-#article-img{
-    
-    margin-left: 80px;
-    width: 300px;
-    height: 150px;
-    /* filter: blur(2px); */
-    object-fit: cover;
-    float: left; 
-    
-}
-#article-img:hover{
-    transform: scale(1.2);
-}
-
-.articles{
+.article-container{
     display: flex;
-    margin: 30px 33px 30px 0px;
-    
-}
-.articles p:last-child{
-    visibility: hidden;
-}
-.articles a:hover p{
-     visibility: visible;
+    justify-content: center;
+    align-items: center;
+ }
 
+.article-imgbox{
+    
+    width: 250px;
+    height: 150px;
+    margin-left: 55px;
+   float: left;
+ }
+
+.article-imgbox:hover{
+    transform: scale(1.1);
 }
-.details{
-    margin: 0px;
-    margin-top: -15px;
-    position: relative;
-}
-.details h2{
-    margin-left: 40px;
-}
-.details h6{
+.article-details{
+    margin-left: 50px;
+ }
+ .article-details h6{
     margin-top: -18px;
-    margin-left: 40px;
-}
-.details p{
-    margin-left: 40px;
-    margin-top: -18px;
-    position: relative;
-}
-a{
-    color: white;
     
 }
-.buton{
+.article-details p{
+    margin-left: 15px;
+    margin-top: -18px;
+    position: relative;
+}
+.more-button{
     border: 2px solid ;
     font-size: smaller;
     width: 100px;
     height: 20px;
-    margin-left: 40px;
+    margin-left: 15px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
