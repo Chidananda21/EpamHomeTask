@@ -1,3 +1,6 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .header-container{
     border: 2px solid rgb(25, 25, 46);
     background-color: rgb(17, 17, 54);
@@ -65,8 +68,6 @@ hr{
         display: grid;
         grid-row: 2;
     }
-   
-    
  }
 
 .article-imgbox{
@@ -93,7 +94,7 @@ hr{
     position: relative;
 }
 .more-button{
-    border: 2px solid ;
+    border: 2px solid none;
     font-size: smaller;
     width: 100px;
     height: 20px;
@@ -102,9 +103,14 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: orangered;
-    color: white;
+    background-color: none;
+    position: relative;
+    transform: translate(680px,0);
 }
+ a{
+    text-decoration: none;
+    
+} 
 .footer{
     
     width: auto;
