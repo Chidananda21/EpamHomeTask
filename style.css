@@ -106,6 +106,7 @@ hr{
     background-color: none;
     position: relative;
     transform: translate(680px,0);
+
 }
  a{
     text-decoration: none;
@@ -113,7 +114,12 @@ hr{
 } 
 h2{
     font-weight:450;
+
 }
+ a{
+    text-decoration: none;
+    
+} 
 .footer{
     
     width: auto;
