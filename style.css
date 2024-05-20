@@ -6,11 +6,12 @@
     background-color: rgb(17, 17, 54);
     width: auto;
     height: 70px;
-   color: white;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    
  }
 
  .logo img{
@@ -26,7 +27,7 @@
  .title {
     text-align: center;
     flex-grow: 1;
-    margin-left: -180px;
+    margin-left: -100px;
  } 
  .title h1{
     font-size: xx-large;
@@ -43,6 +44,10 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
+   
+ }
+ .content{
+    padding-left:100px ;
  }
 
 span{
@@ -61,21 +66,43 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    
  }
  
- @media screen and (max-width:600px) {
+ @media screen and (max-width:750px) {
     .article-container{
-        display: grid;
-        grid-row: 2;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-justify: auto;
+        text-align: center;
+        text-align: justify;
+        
     }
+    .content{
+        padding-left: 0px;
+    }
+    
+    .article-container h2,.article-container h6{
+       text-align: center;
+    }
+     /* .article-container h2{
+       text-align: center;
+    } */
+    .article-details{
+        margin-left: 0px;
+     }
+    
+
  }
 
 .article-imgbox{
-    
+    position: relative;
     width: 250px;
     height: 150px;
-    margin-left: 55px;
-   float: left;
+    margin-left: 55px; 
+    float: left;
  }
 
 .article-imgbox:hover{
@@ -105,14 +132,16 @@ hr{
     align-items: center;
     background-color: none;
     position: relative;
+    left: 85%;
     
 }
-@media screen and (min-width:1100px) {
+@media screen and (max-width:1000px) {
     .more-button{
-        transform: translate(680px,0);
+        /* transform: translate(680px,0); */
+        left:0%;
     }
     
-}
+} 
  a{
     text-decoration: none;
     
@@ -128,6 +157,8 @@ h2{
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 
 /* Styling for Article Pages */
@@ -144,24 +175,20 @@ h2{
     margin-left: 50px;
  }
  .nav-bar-article-page h2{
-    margin-right: 620px;
+    padding-right: 100px; 
  }
 .content-1{
-    
+    text-align: justify;
    width: auto;
    height: auto;
 }
 .content-img{
     width: auto;
-    margin-left: 100px;
     height: 300px;
     display: flex;
     justify-content: center;
 }
-/* #three{
-    width: 500px; 
-    object-fit: cover;
-} */
+
 
 
 
